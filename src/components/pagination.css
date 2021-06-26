@@ -1,0 +1,46 @@
+.pajination-menu > ul {
+  display: inline-flex;
+}
+
+.pagination,
+.start-end-buttons {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+  padding-inline-start: 0;
+}
+
+.pagination > li,
+.start-end-buttons > li {
+  padding: 0.2rem;
+}
+
+.pagination > .active > a {
+  color: #fef769;
+}
+
+.start-end-buttons > :hover > button {
+  color: #fef769;
+}
+
+.pagination > li > a,
+.start-end-buttons > li > button {
+  background: #1b2c48;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+.pagination > li > a,
+.pagination > li > span,
+.start-end-buttons > li > button,
+.start-end-buttons > li > span {
+  color: white;
+}
+
+button {
+  font: inherit;
+  border-width: 0;
+}
